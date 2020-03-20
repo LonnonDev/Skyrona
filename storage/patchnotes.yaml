@@ -1,0 +1,22 @@
+Version: 1.0.3
+#||
+EconomyCommands:
+	Command: balance
+		Aliases:
+			- bal
+		Shorthand:
+			- Lets you check how much money you have
+		Long:
+			- Allows you to check your balance, which include pocket (on hand)
+			- bank and you can also see your bank max, and total money
+	Command: leaderboard
+		Aliases:
+			- lb
+		Args:
+			Name: typeoflb
+				- Default: 'p'
+				- Type: string
+		Shorthand:
+			- Lets you see the leaderboard of money, of bank, and pocket
+		Long:
+			- Allows you to see the leaderboard of money, including bank and pocket

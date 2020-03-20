@@ -1,0 +1,6 @@
+Bank:
+  Interest:
+    - 0.1% Interest
+Pocket:
+  Interest:
+    - 0% Interest
